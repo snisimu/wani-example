@@ -6,6 +6,7 @@ import qualified DTS.QueryTypes as QT
 import qualified DTS.DTTdeBruijn as U
 
 import qualified Data.Text.Lazy as T 
+import qualified Data.Maybe as M
 import qualified ListT as ListT
 import qualified Control.Monad  as Monad
 
@@ -139,7 +140,7 @@ qn =  defaultQ{query=undefined}
 
 main :: IO ()
 main = do
-  let setting = QT.ProofSearchSetting{QT.maxDepth=Just 5,QT.maxTime=Just 300000,QT.logicSystem=Just QT.Classical,QT.neuralDTS = False}
+  let setting = QT.ProofSearchSetting{QT.maxDepth=Just 5,QT.maxTime=Just 300000,QT.logicSystem=Just QT.Classical,QT.oracle=M.Nothing}
   -- results <- ListT.toList $ Wani.prove' setting query1
   results <- Monad.forM questions $ (\q -> do
       isNull <- ListT.null $ Wani.prove' setting{QT.maxTime= Just (maxTime q),QT.maxDepth=Just (maxDepth q),QT.logicSystem=Just (mode q)} (query q)

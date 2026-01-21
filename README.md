@@ -5,6 +5,9 @@ A minimal example project demonstrating how to use the [`lightblue`](https://git
 This example defines several test queries (`QType`) and runs `Wani.prove'` for each,  
 checking whether the proof search succeeds under different logical settings.
 
+For the correspondence between `U.*` constructors and logical syntax,
+see [AST Syntax Table in wani](https://github.com/DaisukeBekki/wani#syntax-correspondence-table).
+
 ---
 
 ## 🧩 Prerequisites

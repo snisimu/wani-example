@@ -44,7 +44,7 @@ extra-deps:
   - git: https://github.com/morning85/parserModules.git
     commit: 899aae39b8c57866148fb3b19a4ac2f393ffaabd
   - git: https://github.com/DaisukeBekki/lightblue
-    commit: 383e1b0af9cb45f15c2872f9624876f1927ea42f
+    commit: c617eff6d39015266a3befe905872544e354b787
 
 #
 # extra-deps: []
