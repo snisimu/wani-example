@@ -28,7 +28,7 @@ stack --version
 Clone this example repository:
 
 ```bash
-git clone https://github.com/DaisukeBekki/wani-example.git
+git clone https://github.com/hinarid/wani-example
 cd wani-example
 stack run
 ```
