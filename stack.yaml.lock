@@ -37,6 +37,13 @@ packages:
   original:
     commit: 899aae39b8c57866148fb3b19a4ac2f393ffaabd
     git: https://github.com/morning85/parserModules.git
+- completed:
+    hackage: shakespeare-2.0.30@sha256:203d2c94bb9d75dcf37751e45e1be591d245436e1dc3f259a44e7ba415371805,5060
+    pantry-tree:
+      sha256: 79d2e33afdd798851a7f586cc9e8a2c1b68ac9d021b49a6541e6bbd88938d747
+      size: 3991
+  original:
+    hackage: shakespeare-2.0.30@sha256:203d2c94bb9d75dcf37751e45e1be591d245436e1dc3f259a44e7ba415371805,5060
 snapshots:
 - completed:
     sha256: 87da71cb0ae9ee1ea1bf51a8eb9812f39f779be76abc0a3c926defd8afda05d1

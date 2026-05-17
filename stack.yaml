@@ -45,6 +45,7 @@ extra-deps:
     commit: 899aae39b8c57866148fb3b19a4ac2f393ffaabd
   - git: https://github.com/DaisukeBekki/lightblue
     commit: c617eff6d39015266a3befe905872544e354b787
+  - shakespeare-2.0.30@sha256:203d2c94bb9d75dcf37751e45e1be591d245436e1dc3f259a44e7ba415371805,5060
 
 #
 # extra-deps: []
