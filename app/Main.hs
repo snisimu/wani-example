@@ -18,7 +18,7 @@ data QType = QType
    debugDepth :: Int, -- ^ Maximum depth for displaying or debugging intermediate proof trees.
    mode :: QT.LogicSystem, -- ^ The logical system used for reasoning (e.g., 'QT.Classical' for classical logic).
    query :: U.ProofSearchQuery -- ^ The actual proof search query to be evaluated.
-  }deriving (Show,Eq)
+  }deriving (Show {- ,Eq -})
 
 
 questions :: [QType]

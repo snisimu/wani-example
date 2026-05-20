@@ -43,8 +43,8 @@ extra-deps:
     commit: e4bd3783f4e872b8df29538d9219e41f40378363
   - git: https://github.com/morning85/parserModules.git
     commit: 899aae39b8c57866148fb3b19a4ac2f393ffaabd
-  - git: https://github.com/DaisukeBekki/lightblue
-    commit: c617eff6d39015266a3befe905872544e354b787
+  - git: https://github.com/snisimu/lightblue
+    commit: c181b812affa11a865f9eddcd88d17f58fc4af23
   - shakespeare-2.0.30@sha256:203d2c94bb9d75dcf37751e45e1be591d245436e1dc3f259a44e7ba415371805,5060
 
 #
@@ -52,6 +52,9 @@ extra-deps:
 
 # Override default flag values for project packages and extra-deps
 # flags: {}
+flags:
+  hexpat:
+    bundle: true
 
 # Extra package databases containing global packages
 # extra-package-dbs: []
