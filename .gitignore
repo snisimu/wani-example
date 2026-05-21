@@ -27,4 +27,5 @@ wani-example
 *.swp
 *~
 
+.claude/
 kw-uni.log
